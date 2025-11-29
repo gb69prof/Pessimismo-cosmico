@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Leopardi – Pessimismo cosmico</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Il pessimismo cosmico</h1>
+    <p>Web app su Leopardi – Mappa interattiva dei concetti chiave</p>
+  </header>
+
+  <main>
+    <section class="hero-image">
+      <img src="assets/pessimismo-cosmico.png" alt="Schema del pessimismo cosmico di Leopardi" usemap="#mappa-pessimismo" />
+      <p class="hero-caption">
+        Clicca sulle tre aree principali dello schema per aprire le mini-lezioni.
+      </p>
+
+      <map name="mappa-pessimismo">
+        <!-- Uomo – Infinito (parte sinistra) -->
+        <area shape="rect"
+              coords="0,0,800,1100"
+              href="uomo-infinito.html"
+              alt="L'uomo e il desiderio di infinito" />
+
+        <!-- Male – Natura (parte destra in alto) -->
+        <area shape="rect"
+              coords="800,0,1640,1100"
+              href="male-natura.html"
+              alt="Il male e la natura nel pessimismo cosmico" />
+
+        <!-- Ruolo della Natura matrigna (parte inferiore) -->
+        <area shape="rect"
+              coords="0,1100,1640,1839"
+              href="natura-matrigna.html"
+              alt="Il ruolo della Natura matrigna" />
+      </map>
+    </section>
+
+    <section>
+      <h2>Come usare questa pagina</h2>
+      <p>
+        Questo schema riassume il <strong>pessimismo cosmico</strong> di Leopardi. Ogni zona cliccabile
+        apre una mini-lezione:
+      </p>
+      <div class="nav-grid">
+        <div class="nav-card">
+          <a href="uomo-infinito.html">
+            <h3>1. L'uomo e il desiderio di infinito</h3>
+            <p>Che cos'è l'uomo per Leopardi e perché è progettato per un piacere che il mondo non può dargli.</p>
+          </a>
+        </div>
+        <div class="nav-card">
+          <a href="male-natura.html">
+            <h3>2. L'origine del male</h3>
+            <p>Perché il dolore non dipende dalla storia o dalla società, ma dalla struttura stessa della Natura.</p>
+          </a>
+        </div>
+        <div class="nav-card">
+          <a href="natura-matrigna.html">
+            <h3>3. Il ruolo della Natura matrigna</h3>
+            <p>La Natura non è madre ma matrigna: una forza cieca che genera e distrugge senza pietà.</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="callout">
+        <strong>Consiglio didattico:</strong> usa l'immagine iniziale come mappa concettuale
+        e poi apri le tre lezioni in sequenza per costruire la visione completa.
+      </div>
+    </section>
+
+    <a href="../index.html" class="home-link">
+      <span class="icon">🏠</span><span>Torna alla home del progetto Leopardi</span>
+    </a>
+  </main>
+
+  <footer>
+    Progetto web app su Leopardi – Sezione "Pessimismo cosmico".
+  </footer>
+</body>
+</html>
